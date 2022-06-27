@@ -179,7 +179,6 @@
 
     <!-- Page Specific JS File -->
     @stack('customScript')
-    @include('sweetalert::alert')
 </body>
 
 </html>
