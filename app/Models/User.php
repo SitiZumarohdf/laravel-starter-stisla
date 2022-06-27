@@ -22,6 +22,8 @@ class User extends Authenticatable implements MustVerifyEmail
         'name',
         'email',
         'password',
+        'nik',
+        'phone'
     ];
 
     /**
@@ -46,4 +48,14 @@ class User extends Authenticatable implements MustVerifyEmail
     {
         return $value->format('d-m-Y H:i:s');
     }
+
+    public function pengaduan()
+    {
+        return $this->hasMany(Pengaduan::class, 'user_nik', 'nik');
+    }
+
+    public function pengaduans() {
+        return $this->belongsTo(Transaction::class, 'id', 'id');
+    }
+
 }
