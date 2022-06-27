@@ -69,6 +69,36 @@
                                                 @enderror
                                             </div>
                                         </div>
+
+                                        <div class="form-group col-6">
+                                            <div class="form-group">
+                                                <label for="nik">NIK</label>
+                                                <input id="nik" type="text" class="form-control" name="nik"
+                                                    value="{{ old('nik') }}"
+                                                    class="form-control @error('nik') is-invalid @enderror"
+                                                    placeholder="Masukkan NIK">
+                                                @error('nik')
+                                                    <div class="invalid-feedback">
+                                                        {{ $message }}
+                                                    </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-6">
+                                            <div class="form-group">
+                                                <label for="phone">Phone</label>
+                                                <input id="phone" type="text" class="form-control" name="phone"
+                                                    value="{{ old('phone') }}"
+                                                    class="form-control @error('phone') is-invalid @enderror"
+                                                    placeholder="Masukkan No Hp">
+                                                @error('phone')
+                                                    <div class="invalid-feedback">
+                                                        {{ $message }}
+                                                    </div>
+                                                @enderror
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="row">
                                         <div class="form-group col-6">
