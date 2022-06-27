@@ -26,5 +26,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ### Nama Kelompok
 Khofifah Amanda (2041720119)
 Safira Dyah Satiti (2041720094)
-Siti Zumaroh Dian F (2041720)
+Siti Zumaroh Dian F (2041720058)
 
