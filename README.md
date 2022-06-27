@@ -22,3 +22,9 @@ Check [Screenshots](screenshots/screenshots.md)
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+### Nama Kelompok
+Khofifah Amanda (2041720119)
+Safira Dyah Satiti (2041720094)
+Siti Zumaroh Dian F (2041720)
+
