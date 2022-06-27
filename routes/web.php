@@ -17,6 +17,7 @@ use App\Http\Controllers\UserController;
 
 use App\Http\Controllers\Aduin\PengaduanController;
 use App\Http\Controllers\Aduin\TanggapanController;
+use App\Http\Controllers\Aduin\MasyarakatController;
 
 
 /*
@@ -83,4 +84,10 @@ Route::group(['middleware' => ['auth','verified']], function () {
         Route::get('export', [PengaduanController::class, 'export'])->name('pengaduan.export');
         Route::resource('tanggapan', TanggapanController::class);
     });
+
+    Route::prefix('menu-masyarakat')->group(function () {
+        Route::resource('laporan-masyarakat', MasyarakatController::class);
+        Route::get('list-laporan', [MasyarakatController::class, 'lihat'])->name('pages.masyarakat.pengaduan');
+    });
+
 });
