@@ -16,6 +16,7 @@ use App\Models\User;
 use App\Http\Controllers\UserController;
 
 use App\Http\Controllers\Aduin\PengaduanController;
+use App\Http\Controllers\Aduin\TanggapanController;
 
 
 /*
@@ -78,5 +79,8 @@ Route::group(['middleware' => ['auth','verified']], function () {
 
     Route::prefix('menu-pengaduan')->group(function () {
         Route::resource('pengaduan', PengaduanController::class);
+        Route::get('laporan',[ PengaduanController::class, 'laporan'])->name('pages.admin.laporan.index');
+        Route::get('export', [PengaduanController::class, 'export'])->name('pengaduan.export');
+        Route::resource('tanggapan', TanggapanController::class);
     });
 });
