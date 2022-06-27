@@ -14,6 +14,10 @@ use App\Http\Controllers\RoleAndPermission\RoleController;
 use Illuminate\Support\Facades\Route;
 use App\Models\User;
 use App\Http\Controllers\UserController;
+
+use App\Http\Controllers\Aduin\PengaduanController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -70,5 +74,9 @@ Route::group(['middleware' => ['auth','verified']], function () {
         Route::post('assign-user', [AssignUserToRoleController::class, 'store'])->name('assign.user.store');
         Route::get('assing-user/{user}/edit', [AssignUserToRoleController::class, 'edit'])->name('assign.user.edit');
         Route::put('assign-user/{user}', [AssignUserToRoleController::class, 'update'])->name('assign.user.update');
+    });
+
+    Route::prefix('menu-pengaduan')->group(function () {
+        Route::resource('pengaduan', PengaduanController::class);
     });
 });
