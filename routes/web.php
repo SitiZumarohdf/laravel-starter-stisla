@@ -32,7 +32,7 @@ use App\Http\Controllers\Aduin\MasyarakatController;
 */
 
 Route::get('/', function () {
-    return view('auth/login');
+    return view('welcome');
 });
 
 Route::group(['middleware' => ['auth','verified']], function () {
@@ -85,7 +85,7 @@ Route::group(['middleware' => ['auth','verified']], function () {
         Route::resource('tanggapan', TanggapanController::class);
     });
 
-    Route::prefix('menu-masyarakat')->group(function () {
+        Route::prefix('menu-masyarakat')->group(function () {
         Route::resource('laporan-masyarakat', MasyarakatController::class);
         Route::get('list-laporan', [MasyarakatController::class, 'lihat'])->name('pages.masyarakat.pengaduan');
     });
