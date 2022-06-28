@@ -39,7 +39,7 @@
                                 @enderror
                             </div>
                             <div class="form-group">
-                            <label>Select2</label>
+                            <label>Status</label>
                             <select class="form-control select2 select2-hidden-accessible" name="status" id="status" tabindex="-1" aria-hidden="true">
                                 <option value="Belum di Proses">Belum di Proses</option>
                                 <option value="Sedang di Proses">Sedang di Proses</option>
