@@ -13,7 +13,7 @@ Check [Screenshots](screenshots/screenshots.md)
 
 ## Contributor
 
-1. [KhofifahAmanda] (https://github.com/manndafifah04) dan (https://github.com/04khofifah)
+1. [KhofifahAmanda]  (https://github.com/04khofifah) dan (https://github.com/mandafifah04)
 2. [SafiraDyahSatiti] (https://github.com/safiradyah)
 3. [SitiZumarohDianFebian] (https://github.com/SitiZumarohdf)
 
