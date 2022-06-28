@@ -4192,7 +4192,11 @@
         },
         {
             "name": "symfony/deprecation-contracts",
+<<<<<<< HEAD
             "version": "v3.0.2",
+=======
+            "version": "v3.1.1",
+>>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
@@ -4239,7 +4243,11 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/deprecation-contracts/tree/v3.0.2"
+=======
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.1.1"
+>>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
             },
             "funding": [
                 {
@@ -4413,7 +4421,11 @@
         },
         {
             "name": "symfony/event-dispatcher-contracts",
+<<<<<<< HEAD
             "version": "v3.0.2",
+=======
+            "version": "v3.1.1",
+>>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher-contracts.git",
@@ -4472,7 +4484,11 @@
                 "standards"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.0.2"
+=======
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.1.1"
+>>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
             },
             "funding": [
                 {
@@ -6055,6 +6071,7 @@
         },
         {
             "name": "symfony/translation-contracts",
+<<<<<<< HEAD
             "version": "v3.0.2",
             "source": {
                 "type": "git",
@@ -6065,6 +6082,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/acbfbb274e730e5a0236f619b6168d9dedb3e282",
                 "reference": "acbfbb274e730e5a0236f619b6168d9dedb3e282",
+=======
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation-contracts.git",
+                "reference": "606be0f48e05116baef052f7f3abdb345c8e02cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/606be0f48e05116baef052f7f3abdb345c8e02cc",
+                "reference": "606be0f48e05116baef052f7f3abdb345c8e02cc",
+>>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
                 "shasum": ""
             },
             "require": {
@@ -6113,7 +6142,11 @@
                 "standards"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation-contracts/tree/v3.0.2"
+=======
+                "source": "https://github.com/symfony/translation-contracts/tree/v3.1.1"
+>>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
             },
             "funding": [
                 {
@@ -6129,7 +6162,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2022-06-27T17:10:44+00:00"
+=======
+            "time": "2022-06-27T17:24:16+00:00"
+>>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
         },
         {
             "name": "symfony/var-dumper",
