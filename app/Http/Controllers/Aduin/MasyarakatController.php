@@ -1,7 +1,7 @@
 <?php
 
-namespace App\Http\Controllers\Pengkat;
 
+namespace App\Http\Controllers\Aduin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Pengaduan;
@@ -14,6 +14,7 @@ use RealRashid\SweetAlert\Facades\Alert;
 use File;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
+use App\Models\Transaction;
 
 class MasyarakatController extends Controller
 {
@@ -78,7 +79,7 @@ class MasyarakatController extends Controller
      */
 
     public function lihat() {
-        $user = Auth::user()->pengaduan()->get();
+        $user = Auth::user()->pengaduans()->get();
 
         $items = Pengaduan::get();
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Pengkat;
+namespace App\Http\Controllers\Aduin;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -41,15 +41,15 @@ class TanggapanController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    { 
+    {
         DB::table('pengaduans')->where('id', $request->id_pengaduan)->update([
             'status'=> $request->status,
         ]);
-        
 
-        $petugas_id = Auth::user()->id;        
 
-            
+        $petugas_id = Auth::user()->id;
+
+
         $data = $request->all();
 
         $data['id_pengaduan'] = $request->id_pengaduan;
@@ -70,7 +70,7 @@ class TanggapanController extends Controller
     public function show($id)
     {
         $item = Pengaduan::with([
-            'details', 'user' 
+            'details', 'user'
         ])->findOrFail($id);
 
         return view('pages.admin.tanggapan.index',[
@@ -102,7 +102,7 @@ class TanggapanController extends Controller
      */
     public function update(Request $request, $id)
     {
-        
+
     }
 
     /**

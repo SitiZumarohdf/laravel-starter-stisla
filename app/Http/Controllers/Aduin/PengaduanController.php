@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Pengkat;
+namespace App\Http\Controllers\Aduin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -30,7 +30,7 @@ class PengaduanController extends Controller
             'items' => $items
         ]);
 
-        
+
     }
 
     /**
@@ -63,7 +63,7 @@ class PengaduanController extends Controller
     public function show($id)
     {
         $item = Pengaduan::with([
-            'details', 'user' 
+            'details', 'user'
         ])->findOrFail($id);
 
         $tangap = Tanggapan::where('id_pengaduan',$id)->first();
@@ -99,8 +99,8 @@ class PengaduanController extends Controller
      */
     public function update(Request $request, $id)
     {
-        
-        
+
+
         $status->update($data);
         return redirect('admin/pengaduans');
     }
