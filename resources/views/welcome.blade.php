@@ -147,7 +147,7 @@
 		<div class="container">
 			<div class="row spad">
 				<div class="col-md-6 col-lg-3 footer-widget pl-lg-5 pl-3">
-					<h5 class="widget-title"> Kelompok 5 - UAS PWL </h5>
+					<h5 class="widget-title"> Kelompok 8 - UAS PWL </h5>
 					<div class="social">
                         <p>Khofifah Amanda [2041720119]</p>
                         <p> Safira Dyah Satiti [2041720094]</p>
