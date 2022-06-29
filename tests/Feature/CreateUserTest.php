@@ -19,11 +19,12 @@ class CreateUserTest extends TestCase
         $response = $this->post('/register', [
             // 'email' => "superadmin@gmail.com",
             // 'password' => "admin",
-            'name'  => "manda",
-            'email'  => "manda@gmail.com",
+            'name'  => "khofifah",
+            'email'  => "khofifah@gmail.com",
             "password" => Hash::make("password"),
-            'nik'  => "123123123",
-            'phone  => "08123456789"'
+            'password confirmation'=>"password",
+            'nik'  => "12345321",
+            'phone' => "123456789"
         ]);
 
         $this->assertTrue(true);
