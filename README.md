@@ -27,3 +27,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 2. Safira Dyah Satiti (2041720094)
 3. Siti Zumaroh Dian F (2041720058)
 
+## CARA MENJALANKAN WEB 
+1. harus menggunakan db-manda.sql (kami tidak menggunakan migration dan seeder)
+2. clone repositori 
+3. ganti database pada file .env DB_DATABASE=(sesui dengan nama db yang sudah dibuat)
+4. kemudian di import db-manda.sql pada phpmyadmin 
+5. lakukan setup (jalankan composer update, php artisan key:generate)
+
+
+
