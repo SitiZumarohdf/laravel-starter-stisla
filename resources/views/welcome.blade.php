@@ -60,7 +60,7 @@
 				<div class="col-md-6 hero-text">
 					<h2>Layanan Pengaduan <br> <span>Masyarakat</span><br>Online</h2>
 					<h4>Sampaikan laporan masalah Anda di sini, kami akan memprosesnya dengan cepat</h4>
-					<button class="site-btn sb-gradients mt-5">Laporkan Di Sini</button>
+                    <a href="{{ route('login') }}" class="site-btn sb-gradients mt-5">Laporkan Di Sini</a>
 				</div>
 				<div class="col-md-6">
 					<img src="{{ asset('homepage/img/pengaduan.png')}}" class="laptop-image" alt="">
