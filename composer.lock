@@ -1174,16 +1174,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.83.17",
+            "version": "v8.83.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "2cf142cd5100b02da248acad3988bdaba5635e16"
+                "reference": "db8188e9cc8359a5c6706fa9d9f55aad7f235077"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/2cf142cd5100b02da248acad3988bdaba5635e16",
-                "reference": "2cf142cd5100b02da248acad3988bdaba5635e16",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/db8188e9cc8359a5c6706fa9d9f55aad7f235077",
+                "reference": "db8188e9cc8359a5c6706fa9d9f55aad7f235077",
                 "shasum": ""
             },
             "require": {
@@ -1343,7 +1343,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-06-21T14:38:31+00:00"
+            "time": "2022-06-28T14:30:38+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -3760,16 +3760,16 @@
         },
         {
             "name": "spatie/laravel-package-tools",
-            "version": "1.12.0",
+            "version": "1.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-package-tools.git",
-                "reference": "9e6c0382553f1317c02f1ae0ee71c64821eb5af0"
+                "reference": "09f80fa240d44fafb1c70657c74ee44ffa929357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/9e6c0382553f1317c02f1ae0ee71c64821eb5af0",
-                "reference": "9e6c0382553f1317c02f1ae0ee71c64821eb5af0",
+                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/09f80fa240d44fafb1c70657c74ee44ffa929357",
+                "reference": "09f80fa240d44fafb1c70657c74ee44ffa929357",
                 "shasum": ""
             },
             "require": {
@@ -3807,7 +3807,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-package-tools/issues",
-                "source": "https://github.com/spatie/laravel-package-tools/tree/1.12.0"
+                "source": "https://github.com/spatie/laravel-package-tools/tree/1.12.1"
             },
             "funding": [
                 {
@@ -3815,7 +3815,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-19T20:01:24+00:00"
+            "time": "2022-06-28T14:29:26+00:00"
         },
         {
             "name": "spatie/laravel-permission",
@@ -4195,8 +4195,12 @@
 <<<<<<< HEAD
             "version": "v3.0.2",
 =======
+<<<<<<< HEAD
+            "version": "v3.0.2",
+=======
             "version": "v3.1.1",
 >>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
+>>>>>>> e5d34c483193b3647a45181d76082d76a2166c9a
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
@@ -4246,8 +4250,12 @@
 <<<<<<< HEAD
                 "source": "https://github.com/symfony/deprecation-contracts/tree/v3.0.2"
 =======
+<<<<<<< HEAD
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.0.2"
+=======
                 "source": "https://github.com/symfony/deprecation-contracts/tree/v3.1.1"
 >>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
+>>>>>>> e5d34c483193b3647a45181d76082d76a2166c9a
             },
             "funding": [
                 {
@@ -4424,8 +4432,12 @@
 <<<<<<< HEAD
             "version": "v3.0.2",
 =======
+<<<<<<< HEAD
+            "version": "v3.0.2",
+=======
             "version": "v3.1.1",
 >>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
+>>>>>>> e5d34c483193b3647a45181d76082d76a2166c9a
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher-contracts.git",
@@ -4487,8 +4499,12 @@
 <<<<<<< HEAD
                 "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.0.2"
 =======
+<<<<<<< HEAD
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.0.2"
+=======
                 "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.1.1"
 >>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
+>>>>>>> e5d34c483193b3647a45181d76082d76a2166c9a
             },
             "funding": [
                 {
@@ -6072,6 +6088,9 @@
         {
             "name": "symfony/translation-contracts",
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e5d34c483193b3647a45181d76082d76a2166c9a
             "version": "v3.0.2",
             "source": {
                 "type": "git",
@@ -6082,6 +6101,8 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/acbfbb274e730e5a0236f619b6168d9dedb3e282",
                 "reference": "acbfbb274e730e5a0236f619b6168d9dedb3e282",
+<<<<<<< HEAD
+=======
 =======
             "version": "v3.1.1",
             "source": {
@@ -6094,6 +6115,7 @@
                 "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/606be0f48e05116baef052f7f3abdb345c8e02cc",
                 "reference": "606be0f48e05116baef052f7f3abdb345c8e02cc",
 >>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
+>>>>>>> e5d34c483193b3647a45181d76082d76a2166c9a
                 "shasum": ""
             },
             "require": {
@@ -6145,8 +6167,12 @@
 <<<<<<< HEAD
                 "source": "https://github.com/symfony/translation-contracts/tree/v3.0.2"
 =======
+<<<<<<< HEAD
+                "source": "https://github.com/symfony/translation-contracts/tree/v3.0.2"
+=======
                 "source": "https://github.com/symfony/translation-contracts/tree/v3.1.1"
 >>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
+>>>>>>> e5d34c483193b3647a45181d76082d76a2166c9a
             },
             "funding": [
                 {
@@ -6165,8 +6191,12 @@
 <<<<<<< HEAD
             "time": "2022-06-27T17:10:44+00:00"
 =======
+<<<<<<< HEAD
+            "time": "2022-06-27T17:10:44+00:00"
+=======
             "time": "2022-06-27T17:24:16+00:00"
 >>>>>>> 2e2e72e500e1da87cada6412c84b503d13c725e7
+>>>>>>> e5d34c483193b3647a45181d76082d76a2166c9a
         },
         {
             "name": "symfony/var-dumper",
@@ -7339,16 +7369,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.14.11",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "6edf45a247b3688e0d07e149570a62fd9bc11c73"
+                "reference": "676e1ff33c1b8af657779f62f57360c376cba666"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/6edf45a247b3688e0d07e149570a62fd9bc11c73",
-                "reference": "6edf45a247b3688e0d07e149570a62fd9bc11c73",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/676e1ff33c1b8af657779f62f57360c376cba666",
+                "reference": "676e1ff33c1b8af657779f62f57360c376cba666",
                 "shasum": ""
             },
             "require": {
@@ -7395,7 +7425,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2022-06-13T18:32:48+00:00"
+            "time": "2022-06-24T13:56:11+00:00"
         },
         {
             "name": "maximebf/debugbar",

@@ -12,19 +12,18 @@
 Check [Screenshots](screenshots/screenshots.md)
 
 ## Contributor
-1. [Putra Prima Arhandi](https://github.com/siubie)
-2. Muhammad Afdal
-3. Dewi Okta
-4. Evina Dinda
-5. [Ardhanika](https://github.com/ardhanika)
-6. Jaya Mahendra
+
+1. [KhofifahAmanda]  (https://github.com/04khofifah) dan (https://github.com/mandafifah04)
+2. [SafiraDyahSatiti] (https://github.com/safiradyah)
+3. [SitiZumarohDianFebian] (https://github.com/SitiZumarohdf)
+
 
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Nama Kelompok
-Khofifah Amanda (2041720119)
-Safira Dyah Satiti (2041720094)
-Siti Zumaroh Dian F (2041720058)
+1. Khofifah Amanda (2041720119)
+2. Safira Dyah Satiti (2041720094)
+3. Siti Zumaroh Dian F (2041720058)
 
