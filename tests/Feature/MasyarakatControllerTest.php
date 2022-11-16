@@ -26,7 +26,7 @@ class MasyarakatControllerTest extends TestCase
     public function test_list_pengaduan(){
         // $response = $this->post('/laporan-masyarakat', [
         //     'email' => "superadmin@gmail.com",
-        //     'password' => "admin",
+        //     'password' => "password",
         // ]);
 
         $response = $this->get('/menu-masyarakat/list-laporan',);

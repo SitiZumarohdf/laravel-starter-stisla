@@ -14,7 +14,7 @@ class AuthTest extends TestCase
         //main post
         $response = $this->post('/login', [
             'email' => "superadmin@gmail.com",
-            'password' => "admin",
+            'password' => "password",
         ]);
 
         $response->assertRedirect('/dashboard');
